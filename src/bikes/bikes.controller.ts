@@ -1,17 +1,34 @@
-import { Body, Controller, Get, Post } from '@nestjs/common';
-import { type Bike, BikesService } from './bikes.service';
+import { Body, Controller, Delete, Get, Param, Post } from '@nestjs/common';
+import { BikesService } from './bikes.service';
+import { CreateBikeDto } from './dto/create-bike.dto';
 
 @Controller('bikes')
 export class BikesController {
   constructor(private readonly bikesService: BikesService) { }
 
   @Get()
-  getAllBikes(): Bike[] {
+  getAllBikes() {
     return this.bikesService.getAllBikes()
   }
 
   @Post()
-  createBike(@Body() cuerpo: Bike) {
-    return this.bikesService.createBike(cuerpo.no, cuerpo.status)
+  createBike(
+    @Body() createBikeDto: CreateBikeDto
+  ) {
+    const { no, status } = createBikeDto
+
+    return this.bikesService.createBike(no, status)
+  }
+
+  @Delete(':id')
+  deleteOneById(
+    @Param('id') id: string
+  ) {
+    return this.bikesService.deleteOneById(id)
+  }
+
+  @Delete()
+  deleteAllBikes() {
+    return this.bikesService.deleteAllBikes()
   }
 }

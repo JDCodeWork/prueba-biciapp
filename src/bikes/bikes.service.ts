@@ -1,22 +1,43 @@
 import { Injectable } from '@nestjs/common';
 
-type BikeStatus = 'disponible' | 'ocupada'
-export interface Bike {
-  no: number
-  status: BikeStatus
-}
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
+import { Bike } from './entities/bike.entity';
 
 @Injectable()
 export class BikesService {
-  bikeList: Bike[] = [
-    { no: 10, status: 'disponible' }
-  ]
+  constructor(
+    @InjectRepository(Bike)
+    private readonly bikeRepository: Repository<Bike>
+  ) { }
 
-  getAllBikes() {
-    return this.bikeList
+  async getAllBikes() {
+    const allBikes = await this.bikeRepository.find()
+
+    return allBikes
   }
 
-  createBike(no: number, status: BikeStatus) {
-    this.bikeList.push({ no, status })
+  async createBike(no: number, status: string) {
+    const newBike = this.bikeRepository.create({
+      no,
+      status
+    })
+
+    await this.bikeRepository.save(newBike)
+  }
+
+  async deleteOneById(id: string) {
+    const isExistingBike = await this.bikeRepository.findBy({ id })
+
+    if (isExistingBike) {
+      return this.bikeRepository.delete({ id })
+    } else {
+      return 'La cicla no existe'
+    }
+
+  }
+
+  deleteAllBikes() {
+    return this.bikeRepository.deleteAll()
   }
 }

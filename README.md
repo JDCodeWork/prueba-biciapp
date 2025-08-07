@@ -1,92 +1,224 @@
-# 🏗️ Arquitectura del Proyecto
+# 🚴‍♂️ BiciApp - Nuestro Proyecto Backend con NestJS
+
+## 🎯 Estado actual del proyecto
+
+### ✅ **Implementado y funcionando:**
+
+- **Base de datos real:** PostgreSQL con Docker
+- **Validaciones robustas:** DTOs con class-validator  
+- **ORM profesional:** TypeORM con entities
+- **Arquitectura modular:** Separation of concerns
+- **DevOps básico:** Docker Compose + variables de entorno
+
+### 🏗️ Arquitectura actual
 
 ```text
 src/
-├── main.ts              # Punto de entrada de la aplicación
-├── app.module.ts        # Módulo raíz
-├── bikes/               # Módulo de bicicletas
-│   ├── bikes.controller.ts
-│   ├── bikes.service.ts
-│   └── bikes.module.ts
-└── stations/            # Módulo de estaciones
+├── main.ts                     # ValidationPipe global configurado
+├── app.module.ts              # TypeORM + PostgreSQL configurado  
+├── bikes/                     # Módulo completo con DB
+│   ├── dto/
+│   │   └── create-bike.dto.ts # Validaciones automáticas
+│   ├── entities/
+│   │   └── bike.entity.ts     # Entity para PostgreSQL
+│   ├── bikes.controller.ts    # CRUD con validación
+│   ├── bikes.service.ts       # Repository pattern
+│   └── bikes.module.ts        # TypeORM configurado
+└── stations/                  # Módulo básico (próximo a actualizar)
     ├── stations.controller.ts
     ├── stations.service.ts
     └── stations.module.ts
 ```
 
-## 📚 Conceptos Fundamentales de NestJS
+### 🗃️ Infrastructure
 
-### 🎮 Controladores (Controllers)
+```text
+docker-compose.yaml            # PostgreSQL containerizada
+.env                          # Variables de entorno (crear este archivo)
+postgres/                     # Datos persistentes (auto-generado)
+```
 
-Los **controladores** manejan las peticiones HTTP y devuelven respuestas. En nuestro proyecto tenemos:
+## 📚 Documentación del Proyecto
 
-#### Bikes Controller (`src/bikes/bikes.controller.ts`)
+### 🎓 **Guías de aprendizaje**
+
+1. **[README.md](./README.md)** - Conceptos básicos que ya dominamos
+2. **[CONCEPTOS_AVANZADOS.md](./docs/2da-parte/CONCEPTOS_AVANZADOS.md)** - DTOs, Entities, TypeORM explicados
+3. **[PROYECTO_ACTUAL.md](./docs/2da-parte/PROYECTO_ACTUAL.md)** - Estado técnico del proyecto
+
+### 🚀 **Para empezar a trabajar**
+
+```bash
+# 1. Levantar la base de datos
+docker-compose up
+
+# 2. Instalar dependencias  
+bun install
+
+# 3. Ejecutar en modo desarrollo
+bun run start:dev
+
+# 4. Probar que todo funciona
+# GET http://localhost:3000/bikes
+# POST http://localhost:3000/bikes con { "no": 25, "status": "disponible" }
+```
+
+### 🎯 **Lo que pueden hacer ahora mismo**
+
+- ✅ Crear bicicletas con validación automática
+- ✅ Ver las bicicletas guardadas en PostgreSQL  
+- ✅ Modificar el DTO para agregar nuevas validaciones
+- ✅ Agregar nuevas columnas a la Entity
+- ✅ Experimentar con Docker y PostgreSQL
+
+## 🔧 Configuración Inicial
+
+### 🎮 Controladores - Lo que YA dominamos
+
+#### Ejemplo actual de nuestro Bikes Controller
 
 ```typescript
-@Controller('bikes')  // Define la ruta base: /bikes
+@Controller('bikes')
 export class BikesController {
-  constructor(private readonly bikesService: BikesService) { }
+  constructor(private readonly bikesService: BikesService) {}
 
-  @Get()    // GET /bikes - Obtener todas las bicicletas
-  getAllBikes(): Bike[] {
-    return this.bikesService.getAllBikes()
+  @Get()  // GET /bikes - Con datos reales de PostgreSQL
+  getAllBikes(): Promise<Bike[]> {
+    return this.bikesService.getAllBikes();
   }
 
-  @Post()   // POST /bikes - Crear una nueva bicicleta
-  createBike(@Body() cuerpo: Bike) {
-    return this.bikesService.createBike(cuerpo.no, cuerpo.status)
+  @Post() // POST /bikes - Con validación automática de DTOs
+  createBike(@Body() createBikeDto: CreateBikeDto): Promise<Bike> {
+    return this.bikesService.createBike(createBikeDto);
+  }
+
+  @Delete(':id') // DELETE /bikes/:id - Con UUIDs
+  deleteBike(@Param('id') id: string): Promise<void> {
+    return this.bikesService.deleteBike(id);
   }
 }
 ```
 
-#### Stations Controller (`src/stations/stations.controller.ts`)
+**¿Qué cambió desde lo básico?**
+
+- 💾 **Datos reales:** Se guardan en PostgreSQL (no en memoria)
+- ✅ **Validación automática:** Los DTOs validan automáticamente
+- 🆔 **UUIDs:** IDs únicos profesionales (no números)
+- 🔄 **Async/Await:** Operaciones asíncronas (base de datos)
+
+#### Lo que aprendimos de Stations Controller
 
 ```typescript
-@Controller('stations')  // Define la ruta base: /stations
+@Controller('stations')
 export class StationsController {
-  @Post()   // POST /stations - Crear una nueva estación
+  @Post()   // POST /stations - Todavía básico (próximo a actualizar)
   create(@Body() { name }: { name: string }) {
     return this.stationsService.create(name);
   }
 
-  @Get()    // GET /stations - Obtener todas las estaciones
+  @Get()    // GET /stations - Array en memoria (por ahora)
   findAll() {
     return this.stationsService.findAll();
   }
 }
 ```
 
-### 🔧 Servicios (Services)
+### 🔧 Servicios - Ahora con Repository Pattern
 
-Los **servicios** contienen la lógica de negocio y pueden ser inyectados en otros componentes:
-
-#### Bikes Service
+#### Nuestro Bikes Service actualizado
 
 ```typescript
-@Injectable()  // Permite que este servicio sea inyectado
+@Injectable()
 export class BikesService {
-  bikeList: Bike[] = [{ no: 10, status: 'disponible' }]
+  constructor(
+    @InjectRepository(Bike)  // 🔥 Esto es Repository Pattern
+    private bikeRepository: Repository<Bike>,
+  ) {}
 
-  getAllBikes() {
-    return this.bikeList  // Retorna todas las bicicletas
+  // Ya no usamos arrays - usamos PostgreSQL
+  async getAllBikes(): Promise<Bike[]> {
+    return this.bikeRepository.find();  // SELECT * FROM bikes
   }
 
-  createBike(no: number, status: BikeStatus) {
-    this.bikeList.push({ no, status })  // Agrega una nueva bicicleta
+  async createBike(createBikeDto: CreateBikeDto): Promise<Bike> {
+    const bike = this.bikeRepository.create(createBikeDto);
+    return this.bikeRepository.save(bike);  // INSERT INTO bikes
+  }
+
+  async deleteBike(id: string): Promise<void> {
+    await this.bikeRepository.delete(id);  // DELETE FROM bikes WHERE id = ?
   }
 }
 ```
 
-### 📦 Módulos (Modules)
+**¿Qué aprendimos aquí?**
 
-Los **módulos** organizan y agrupan componentes relacionados:
+- 🗄️ **Repository Pattern:** La forma profesional de manejar datos
+- 💉 **Dependency Injection:** `@InjectRepository` nos da acceso a la DB
+- ⚡ **Operaciones async:** Todo es asíncrono con la base de datos
+- 🔄 **TypeORM methods:** `find()`, `create()`, `save()`, `delete()`
+
+### 📦 Módulos - Ahora con TypeORM Configuration
 
 ```typescript
 @Module({
-  providers: [BikesService],      // Servicios disponibles en este módulo
-  controllers: [BikesController]  // Controladores de este módulo
+  imports: [
+    TypeOrmModule.forFeature([Bike])  // 🔥 Registra la Entity para DI
+  ],
+  providers: [BikesService],      // Service con Repository inyectado
+  controllers: [BikesController]  // Controller que maneja HTTP
 })
 export class BikesModule {}
+```
+
+**¿Qué es nuevo aquí?**
+
+- 🔗 **TypeOrmModule.forFeature([Bike]):** Registra nuestra Entity
+- 💉 **Dependency Injection:** Permite que el Repository se inyecte
+- 🏗️ **Architecture:** Separación limpia de responsabilidades
+
+### 🎯 **Conceptos clave que YA dominamos**
+
+#### ✅ DTOs (Data Transfer Objects)
+
+```typescript
+export class CreateBikeDto {
+  @IsInt()
+  @Min(0)
+  @Max(300)
+  no: number;
+
+  @IsString()
+  @IsIn(['disponible', 'ocupada', 'mantenimiento'])
+  status: string;
+}
+```
+
+#### ✅ Entities (Base de datos)
+
+```typescript
+@Entity()
+export class Bike {
+  @PrimaryGeneratedColumn('uuid')
+  id: string;
+
+  @Column()
+  no: number;
+
+  @Column()
+  status: string;
+}
+```
+
+#### ✅ Validación automática en `main.ts`
+
+```typescript
+app.useGlobalPipes(
+  new ValidationPipe({
+    whitelist: true,           // Solo acepta campos definidos en DTO
+    forbidNonWhitelisted: true // Rechaza campos extra
+  })
+);
 ```
 
 ## 🌐 HTTP Methods
@@ -219,28 +351,34 @@ src/users/
 └── users.module.ts           # Módulo que agrupa todo
 ```
 
-## 💻 Configuración del Proyecto
+## 📖 Conceptos básicos como referencia
 
-### Instalación
+### 🌐 HTTP Methods que usamos
 
-```bash
-pnpm install
-```
+- **GET**: "Dame información" (no cambia nada)
+  - `GET /bikes` → "Muéstrame todas las bicicletas"
+- **POST**: "Agrega algo nuevo"  
+  - `POST /bikes` → "Registra esta bicicleta"
+- **DELETE**: "Elimina algo"
+  - `DELETE /bikes/uuid` → "Elimina esta bicicleta"
 
-### Ejecutar el proyecto
+### 🔑 Decoradores importantes
 
-```bash
-# modo desarrollo (recompila automáticamente al guardar)
-pnpm run start:dev
+- `@Controller('bikes')`: Define ruta base `/bikes`
+- `@Get()`, `@Post()`, `@Delete()`: Métodos HTTP
+- `@Body()`: Obtiene datos del body (validados automáticamente)
+- `@Param('id')`: Parámetros de URL
+- `@Injectable()`: Servicios inyectables
+- `@Entity()`: Tablas de PostgreSQL
+- `@Column()`: Columnas de la tabla
+- `@IsInt()`, `@IsString()`: Validaciones automáticas
 
-# modo desarrollo normal
-pnpm run start
+## 🔗 Recursos adicionales
 
-# modo producción
-pnpm run start:prod
-```
-
-La aplicación estará disponible en: `http://localhost:3000`
+- [NestJS Docs](https://docs.nestjs.com) - Documentación oficial
+- [TypeORM Docs](https://typeorm.io) - ORM que usamos  
+- [class-validator](https://github.com/typestack/class-validator) - Validaciones
+- [PostgreSQL Docs](https://www.postgresql.org/docs/) - Base de datos
 
 ## 📖 Conceptos que NECESITAMOS dominar para el proyecto
 
@@ -295,6 +433,4 @@ src/
 
 ## 🔗 Recursos Útiles
 
-- [Documentación Oficial de NestJS](https://docs.nestjs.com)
-- [CLI Commands Reference](https://docs.nestjs.com/cli/overview)
 - [HTTP Methods Guide](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)

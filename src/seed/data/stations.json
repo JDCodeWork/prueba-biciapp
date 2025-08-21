@@ -1,0 +1,82 @@
+[
+	{
+		"label": "Calle 53",
+		"shortInfo": "Estación en la portería de la calle 53, cerca de canchas y el IPARM.",
+		"id": "calle-53",
+		"position": {
+			"lat": 4.6432422,
+			"lng": -74.083427
+		},
+		"state": "open",
+		"iconId": "warehouse",
+		"images": [
+			"https://res.cloudinary.com/dfmkgykqh/image/upload/w_600/q_auto/f_auto/v1751311411/biciapp_unal/stations/calle-53_1.webp",
+			"https://res.cloudinary.com/dfmkgykqh/image/upload/w_600/q_auto/f_auto/v1751311411/biciapp_unal/stations/calle-53_2.webp",
+			"https://res.cloudinary.com/dfmkgykqh/image/upload/w_600/q_auto/f_auto/v1751311411/biciapp_unal/stations/calle-53_3.webp"
+		]
+	},
+	{
+		"label": "Calle 45",
+		"id": "calle-45",
+		"shortInfo": "Cerca de la salida a la estación Universidad Nacional y la pizzería Sara Valentina.",
+		"position": {
+			"lat": 4.6355778,
+			"lng": -74.0803224
+		},
+		"state": "open",
+		"iconId": "bus",
+		"images": [
+			"https://res.cloudinary.com/dfmkgykqh/image/upload/w_600/q_auto/f_auto/v1751311411/biciapp_unal/stations/calle-45_1.webp",
+			"https://res.cloudinary.com/dfmkgykqh/image/upload/w_600/q_auto/f_auto/v1751311411/biciapp_unal/stations/calle-45_2.webp",
+			"https://res.cloudinary.com/dfmkgykqh/image/upload/w_600/q_auto/f_auto/v1751311411/biciapp_unal/stations/calle-45_3.webp"
+		]
+	},
+	{
+		"label": "Calle 26",
+		"id": "calle-26",
+		"shortInfo": "Junto a la entrada de la estación Ciudad Universitaria, cerca de Humanas y Artes.",
+		"position": {
+			"lat": 4.6332763,
+			"lng": -74.0840778
+		},
+		"state": "open",
+		"iconId": "bus",
+		"images": [
+			"https://res.cloudinary.com/dfmkgykqh/image/upload/w_600/q_auto/f_auto/v1751311411/biciapp_unal/stations/calle-26_1.webp",
+			"https://res.cloudinary.com/dfmkgykqh/image/upload/w_600/q_auto/f_auto/v1751311411/biciapp_unal/stations/calle-26_2.webp",
+			"https://res.cloudinary.com/dfmkgykqh/image/upload/v1751311411/biciapp_unal/stations/calle-26_3.webp"
+		]
+	},
+	{
+		"label": "Ciencia y Tecnología",
+		"id": "ciencia-y-tecnologia",
+		"shortInfo": "En el edificio de Ciencia y Tecnología, cerca de canchas, Cine y TV.",
+		"position": {
+			"lat": 4.6383432,
+			"lng": -74.0847504
+		},
+		"state": "open",
+		"iconId": "building",
+		"images": [
+			"https://res.cloudinary.com/dfmkgykqh/image/upload/w_600/q_auto/f_auto/v1751311411/biciapp_unal/stations/ciencia-y-tecnologia_1.webp",
+			"https://res.cloudinary.com/dfmkgykqh/image/upload/w_600/q_auto/f_auto/v1751311411/biciapp_unal/stations/ciencia-y-tecnologia_2.webp",
+			"https://res.cloudinary.com/dfmkgykqh/image/upload/v1751311411/biciapp_unal/stations/ciencia-y-tecnologia_3.webp"
+		]
+	},
+	{
+		"label": "Uriel Gutiérrez",
+		"id": "uriel-gutierrez",
+		"shortInfo": "Cercana a la Hemeroteca, y a la portería de la calle 45",
+		"position": {
+			"lat": 4.6388752,
+			"lng": -74.0886627
+		},
+		"state": "open",
+		"iconId": "warehouse",
+		"images": [
+			"https://res.cloudinary.com/dfmkgykqh/image/upload/w_600/q_auto/f_auto/v1751311411/biciapp_unal/stations/uriel-gutierrez_1.webp",
+			"https://res.cloudinary.com/dfmkgykqh/image/upload/w_600/q_auto/f_auto/v1751311411/biciapp_unal/stations/uriel-gutierrez_2.webp",
+			"https://res.cloudinary.com/dfmkgykqh/image/upload/v1751311411/biciapp_unal/stations/uriel-gutierrez_3.webp"
+		]
+	}
+]

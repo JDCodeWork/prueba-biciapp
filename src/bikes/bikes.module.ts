@@ -9,6 +9,7 @@ import { Bike } from './entities/bike.entity';
     TypeOrmModule.forFeature([Bike])
   ],
   providers: [BikesService],
-  controllers: [BikesController]
+  controllers: [BikesController],
+  exports: [BikesService]
 })
-export class BikesModule {}
+export class BikesModule { }

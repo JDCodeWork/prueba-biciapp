@@ -3,6 +3,7 @@ import { BikesModule } from './bikes/bikes.module';
 import { StationsModule } from './stations/stations.module';
 import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { SeedModule } from './seed/seed.module';
 
 @Module({
   imports: [
@@ -19,7 +20,8 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       synchronize: true
     }),
     BikesModule,
-    StationsModule
+    StationsModule,
+    SeedModule
   ],
   controllers: [],
   providers: [],

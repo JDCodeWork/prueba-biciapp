@@ -14,4 +14,10 @@ export class Bike {
     type: 'text'
   })
   status: string
+
+  @Column({
+    type: 'float',
+    default: 0,
+  })
+  rating: number
 }

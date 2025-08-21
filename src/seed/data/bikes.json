@@ -1,0 +1,1074 @@
+[
+	{
+		"bikeNo": 17,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/v1751311411/biciapp_unal/bikes/no-bike-image_1200.jpg",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/v1751311411/biciapp_unal/bikes/no-bike-image_800.jpg",
+		"description": "La recomiendo, esta bien. Pero tener en cuenta que es de silla fina y puede ser algo más incomoda que las otras",
+		"qualifier": 3.92,
+		"timeStamp": "2025-06-25T17:33:51.6g01Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 2,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "haylopezgo@unal.edu.co"
+	},
+	{
+		"bikeNo": 42,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/v1751311411/biciapp_unal/bikes/no-bike-image_1200.jpg",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/v1751311411/biciapp_unal/bikes/no-bike-image_800.jpg",
+		"description": "Se le rompió un pedal, no sirve",
+		"qualifier": 4.42,
+		"timeStamp": "2025-06-25T17:35:11.295Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 0,
+			"fenders": 2
+		},
+		"status": "maintenance",
+		"email": "haylopezgo@unal.edu.co"
+	},
+	{
+		"bikeNo": 27,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/a_90/v1751311411/biciapp_unal/bikes/27",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/a_90/v1751311411/biciapp_unal/bikes/27",
+		"description": "Muy buen estado y traición. Recomendada",
+		"qualifier": 3.92,
+		"timeStamp": "2025-06-25T18:35:17.789Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 2,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "haylopezgo@unal.edu.co"
+	},
+	{
+		"bikeNo": 72,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/a_90/v1751311411/biciapp_unal/bikes/72",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/a_90/v1751311411/biciapp_unal/bikes/72",
+		"description": "La recomiendo para días que no esté lloviendo, está en buen estado pero no tiene guardabarros",
+		"qualifier": 3.83,
+		"timeStamp": "2025-06-25T14:04:32.402Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 2,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "jorozcoro@unal.edu.co"
+	},
+	{
+		"bikeNo": 202,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/202",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/202",
+		"description": "Esta en muy buen estado, pero no tiene guardabarros trasero y con la lluvia se puede ensuciar la maleta",
+		"qualifier": 4.67,
+		"timeStamp": "2025-06-25T14:16:22.971Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 2
+		},
+		"email": "jorozcoro@unal.edu.co"
+	},
+	{
+		"bikeNo": 209,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/209",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/209",
+		"description": "Los frenos están algo deteriorados y suenan feo cuando se utilizan, en general no la recomendaría mucho, no está tan mal pero hay mejores",
+		"qualifier": 4,
+		"timeStamp": "2025-06-27T15:38:53.247Z",
+		"rating": {
+			"handlebar": 2,
+			"brakes": 2,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 2,
+			"fenders": 2
+		},
+		"email": "jorozcoro@unal.edu.co"
+	},
+	{
+		"bikeNo": 208,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/208",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/208",
+		"description": "La cabrilla está muy buena pero los pedales se tiran todo, se siente como si en cualquier momento se fueran a caer y suenan muy feo al pedalear, en general no la recomiendo",
+		"qualifier": 3.08,
+		"timeStamp": "2025-06-27T15:55:35.300Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 2,
+			"seat": 2,
+			"chain": 1,
+			"pedals": 1,
+			"fenders": 2
+		},
+		"email": "jorozcoro@unal.edu.co"
+	},
+	{
+		"bikeNo": 76,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/a_90/v1751311411/biciapp_unal/bikes/76",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/a_90/v1751311411/biciapp_unal/bikes/76",
+		"description": "Esta en buen estado pero los frenos están algo raros, no tiene ningún guardabarros por lo que no la recomiendo si llueve, de resto está en buen esta",
+		"qualifier": 2.92,
+		"timeStamp": "2025-06-27T17:23:50.369Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 1,
+			"seat": 2,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "jorozcoro@unal.edu.co"
+	},
+	{
+		"bikeNo": 60,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/a_90/v1751311411/biciapp_unal/bikes/60",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/a_90/v1751311411/biciapp_unal/bikes/60",
+		"description": "Esta relativamente en buen estado, la cabrilla está algo oxidada y baja y la silla es algo alta pero dentro de todo está bien, no la recomiendo para días lluviosos por qué no tiene guardabarros",
+		"qualifier": 3.83,
+		"timeStamp": "2025-07-01T19:13:54.508Z",
+		"rating": {
+			"handlebar": 2,
+			"brakes": 3,
+			"seat": 2,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "jorozcoro@unal.edu.co"
+	},
+	{
+		"bikeNo": 58,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/no-bike-image_1200.jpg",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/v1751311411/biciapp_unal/bikes/no-bike-image_800.jpg",
+		"description": "Uno de los frenos no funciona, no viene con guarda barros",
+		"qualifier": 3.83,
+		"timeStamp": "2025-07-02T14:17:29.403Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 2,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "jurinconli@unal.edu.co"
+	},
+	{
+		"bikeNo": 210,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/210",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/210",
+		"description": "Es buena por lo general pero los frenos fallan un poco y la silla es incomoda",
+		"qualifier": 2.5,
+		"timeStamp": "2025-07-02T11:57:37.634Z",
+		"rating": {
+			"handlebar": 2,
+			"brakes": 1,
+			"seat": 2,
+			"chain": 2,
+			"pedals": 2,
+			"fenders": 1
+		},
+		"email": "nmoralesl@unal.edu.co"
+	},
+	{
+		"bikeNo": 24,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/24",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/24",
+		"description": "Es una buena bicicleta, el asiento es algo incómodo y cuesta un poco empezar a moverse pero tiene buenos frenos, cabrilla y pedales, la recomiendo en trayectos cortos",
+		"qualifier": 3.67,
+		"timeStamp": "2025-06-25T12:25:19.693Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 2,
+			"chain": 2,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 66,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/66",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/66",
+		"description": "Cuesta bastante conducirla, los frenos no funcionan, la cadena suele atascarse, hay que  pedalear fuerte para que ande.",
+		"qualifier": 2.67,
+		"timeStamp": "2025-06-25T12:38:10.802Z",
+		"rating": {
+			"handlebar": 2,
+			"brakes": 1,
+			"seat": 3,
+			"chain": 1,
+			"pedals": 2,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 45,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/45",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/45",
+		"description": "Es muy buena bicicleta, rápida, fácil de manejar, con frenos",
+		"qualifier": 4.33,
+		"timeStamp": "2025-06-25T13:37:43.800Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 213,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/213",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/213",
+		"description": "Es buena bici, aunque a veces se sale la cadena y el asiento está algo alto",
+		"qualifier": 4,
+		"timeStamp": "2025-06-25T20:29:42.314Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 2,
+			"chain": 2,
+			"pedals": 3,
+			"fenders": 2
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 56,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/56",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/56",
+		"description": "Es muy buena bicicleta, es suave y facil de manejar",
+		"qualifier": 4.33,
+		"timeStamp": "2025-06-25T20:36:07.567Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 4,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/4",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/4",
+		"description": "Chorrea bastante y es algo incómoda, pero anda bien",
+		"qualifier": 3.58,
+		"timeStamp": "2025-07-01T19:38:41.259Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 1,
+			"chain": 2,
+			"pedals": 3,
+			"fenders": 2
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 33,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/a_180/v1751311411/biciapp_unal/bikes/33",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/a_180/v1751311411/biciapp_unal/bikes/33",
+		"description": "Chirrea un poco y cuesta hacer que se mueva",
+		"qualifier": 4.08,
+		"timeStamp": "2025-07-01T19:44:31.198Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 3,
+			"chain": 2,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 59,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/a_180/v1751311411/biciapp_unal/bikes/59",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/a_180/v1751311411/biciapp_unal/bikes/59",
+		"description": "Es buena bici, cuesta un poco al principio pero cuando coge velocidad es buena",
+		"qualifier": 4.33,
+		"timeStamp": "2025-07-01T19:48:37.843Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 135,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/135",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/135",
+		"description": "Es buena bici, solo frena un poco raro pero está bien",
+		"qualifier": 3.83,
+		"timeStamp": "2025-07-01T19:53:14.431Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 2,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 39,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/a_180/v1751311411/biciapp_unal/bikes/39",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/a_180/v1751311411/biciapp_unal/bikes/39",
+		"description": "Es buena bici, solo un poco incomoda",
+		"qualifier": 4.25,
+		"timeStamp": "2025-07-01T19:58:28.038Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 2,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 2
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 46,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/a_180/v1751311411/biciapp_unal/bikes/46",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/a_180/v1751311411/biciapp_unal/bikes/46",
+		"description": "Es rara, como que al pedalear se tuerce un poco",
+		"qualifier": 3.58,
+		"timeStamp": "2025-07-01T20:04:21.554Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 2,
+			"chain": 2,
+			"pedals": 2,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 28,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/28",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/28",
+		"description": "Muy buena bici, aunque algo incomoda",
+		"qualifier": 3.92,
+		"timeStamp": "2025-07-01T20:07:52.117Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 2,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 19,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/a_180/v1751311411/biciapp_unal/bikes/19",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/a_180/v1751311411/biciapp_unal/bikes/19",
+		"description": "Es incómoda, la silla está como hacia arriba",
+		"qualifier": 3.5,
+		"timeStamp": "2025-07-01T20:13:44.124Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 1,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 50,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/50",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/50",
+		"description": "Frena algo raro y le falta un mango en la cabrilla",
+		"qualifier": 3.75,
+		"timeStamp": "2025-07-02T11:58:15.348Z",
+		"rating": {
+			"handlebar": 2,
+			"brakes": 2,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 25,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/25",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/25",
+		"description": "Cuesta algo ponerla a andar y la silla es incómoda",
+		"qualifier": 2.75,
+		"timeStamp": "2025-07-02T12:07:15.830Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 2,
+			"seat": 1,
+			"chain": 2,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 71,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/71",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/71",
+		"description": "Hay que hacer un poco de fuerza para el freno de atrás, pero por lo demás es buena bicicleta",
+		"qualifier": 3.83,
+		"timeStamp": "2025-07-02T12:16:26.926Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 2,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 70,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/70",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/70",
+		"description": "Es buena bici, aunque algo incomoda",
+		"qualifier": 3.92,
+		"timeStamp": "2025-07-02T19:20:11.938Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 2,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 63,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/63",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/63",
+		"description": "No funcionan los frenos  de atrás y el asiento demasiado alto",
+		"qualifier": 2.5,
+		"timeStamp": "2025-07-02T19:30:54.588Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 1,
+			"seat": 1,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 65,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/65",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/65",
+		"description": "Es buena bici, no encontré errores",
+		"qualifier": 4.33,
+		"timeStamp": "2025-07-02T19:44:05.053Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 78,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/a_180/v1751311411/biciapp_unal/bikes/78",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/a_180/v1751311411/biciapp_unal/bikes/78",
+		"description": "Es buena bici, no encontré fallos",
+		"qualifier": 4.33,
+		"timeStamp": "2025-07-02T19:48:46.251Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 200,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/200",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/200",
+		"description": "Es buena bici, aunque cuesta un poco ponerla a andar",
+		"qualifier": 4.75,
+		"timeStamp": "2025-07-02T19:54:20.039Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 3,
+			"chain": 2,
+			"pedals": 3,
+			"fenders": 3
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 20,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/20",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/20",
+		"description": "Es muy incomoda y cuesta conducirla",
+		"qualifier": 2.5,
+		"timeStamp": "2025-07-02T20:06:11.207Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 2,
+			"seat": 1,
+			"chain": 1,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 80,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/80",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/80",
+		"description": "Es muy buena bici, no encontré nada malo",
+		"qualifier": 4.33,
+		"timeStamp": "2025-07-02T20:14:14.800Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 68,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/a_90/v1751311411/biciapp_unal/bikes/68",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/a_90/v1751311411/biciapp_unal/bikes/68",
+		"description": "El asiento está algo bajo y le falta aceite a la cadena",
+		"qualifier": 4,
+		"timeStamp": "2025-07-02T20:29:45.140Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 3,
+			"chain": 2,
+			"pedals": 2,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 48,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/a_90/v1751311411/biciapp_unal/bikes/48",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/a_90/v1751311411/biciapp_unal/bikes/48",
+		"description": "Todo normal, recomendable",
+		"qualifier": 4.33,
+		"timeStamp": "2025-07-02T20:49:00.914Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "haylopezgo@unal.edu.co"
+	},
+	{
+		"bikeNo": 6,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/6",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/6",
+		"description": "Es muy comoda excepto por el sillin, es super incomodo",
+		"qualifier": 3.83,
+		"timeStamp": "2025-07-02T23:13:10.781Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 1,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 2
+		},
+		"email": "nmoralesl@unal.edu.co"
+	},
+	{
+		"bikeNo": 205,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/205",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/205",
+		"description": "El sillín es demasiado incómodo, los frenos no están en el mejor estado",
+		"qualifier": 3.08,
+		"timeStamp": "2025-07-03T17:49:03.037Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 2,
+			"seat": 1,
+			"chain": 2,
+			"pedals": 3,
+			"fenders": 2
+		},
+		"email": "jurinconli@unal.edu.co"
+	},
+	{
+		"bikeNo": 214,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/214",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/214",
+		"description": "Cómoda, uno de los frenos está demasiado duro",
+		"qualifier": 4.17,
+		"timeStamp": "2025-07-03T18:14:34.756Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 2,
+			"seat": 3,
+			"chain": 2,
+			"pedals": 2,
+			"fenders": 3
+		},
+		"email": "jurinconli@unal.edu.co"
+	},
+	{
+		"bikeNo": 53,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/53",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/53",
+		"description": "No tiene guardabarros, un freno casi no funciona",
+		"qualifier": 3.83,
+		"timeStamp": "2025-07-03T18:18:42.578Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 2,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "jurinconli@unal.edu.co"
+	},
+	{
+		"bikeNo": 64,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/64",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/64",
+		"description": "No tiene guardabarros, los frenos no sirven",
+		"qualifier": 2.58,
+		"timeStamp": "2025-07-03T18:39:50.367Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 1,
+			"seat": 2,
+			"chain": 2,
+			"pedals": 2,
+			"fenders": 1
+		},
+		"email": "jurinconli@unal.edu.co"
+	},
+	{
+		"bikeNo": 41,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/41",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/41",
+		"description": "No tiene guardabarros, cómoda",
+		"qualifier": 3.83,
+		"timeStamp": "2025-07-03T18:43:42.461Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 2,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "jurinconli@unal.edu.co"
+	},
+	{
+		"bikeNo": 74,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/74",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/74",
+		"description": "No tiene guardabarros y uno de los pedales está chueco",
+		"qualifier": 4.17,
+		"timeStamp": "2025-07-03T18:50:18.473Z",
+		"rating": {
+			"handlebar": 2,
+			"brakes": 3,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 2,
+			"fenders": 1
+		},
+		"email": "jurinconli@unal.edu.co"
+	},
+	{
+		"bikeNo": 11,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/a_270/v1751311411/biciapp_unal/bikes/11",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/a_270/v1751311411/biciapp_unal/bikes/11",
+		"description": "No tiene guardabarros, pero las bicicletas cómoda, uno de los frenos está malo",
+		"qualifier": 3.58,
+		"timeStamp": "2025-07-03T18:55:08.676Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 2,
+			"seat": 3,
+			"chain": 2,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "jurinconli@unal.edu.co"
+	},
+	{
+		"bikeNo": 54,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/a_270/v1751311411/biciapp_unal/bikes/54",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/a_270/v1751311411/biciapp_unal/bikes/54",
+		"description": "No tiene guardabarros, los frenos no funcionan, casi me atropello contra una moto.",
+		"qualifier": 3.08,
+		"timeStamp": "2025-07-03T19:02:12.181Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 1,
+			"seat": 3,
+			"chain": 2,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "jurinconli@unal.edu.co"
+	},
+	{
+		"bikeNo": 55,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/55",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/55",
+		"description": "No tiene guardabarros, el sillín está muy bajito.",
+		"qualifier": 3.83,
+		"timeStamp": "2025-07-03T19:12:38.379Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 2,
+			"chain": 3,
+			"pedals": 2,
+			"fenders": 1
+		},
+		"email": "jurinconli@unal.edu.co"
+	},
+	{
+		"bikeNo": 44,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/a_90/v1751311411/biciapp_unal/bikes/44",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/a_90/v1751311411/biciapp_unal/bikes/44",
+		"description": "Me gusto bastante sin embargo no tiene guardabarros, dentro de todo está bien",
+		"qualifier": 3.83,
+		"timeStamp": "2025-07-03T19:12:44.301Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 2,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "jorozcoro@unal.edu.co"
+	},
+	{
+		"bikeNo": 217,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/217",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/217",
+		"description": "De la 200 para arriba son mas veloces",
+		"qualifier": 4.08,
+		"timeStamp": "2025-07-03T19:47:16.124Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 2,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 2,
+			"fenders": 2
+		},
+		"email": "nmoralesl@unal.edu.co"
+	},
+	{
+		"bikeNo": 21,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/21",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/21",
+		"description": "Es bastante incomoda pero cumple su función",
+		"qualifier": 3.5,
+		"timeStamp": "2025-07-03T19:54:27.655Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 1,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "sgonzalezto@unal.edu.co"
+	},
+	{
+		"bikeNo": 201,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/201",
+		"description": "Tiene pedales y cadenas inestables toca arreglarlos",
+		"qualifier": 3.33,
+		"timeStamp": "2025-07-05T13:52:08.028Z",
+		"rating": {
+			"handlebar": 2,
+			"brakes": 2,
+			"seat": 2,
+			"chain": 1,
+			"pedals": 1,
+			"fenders": 3
+		},
+		"email": "nmoralesl@unal.edu.co",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/201"
+	},
+	{
+		"bikeNo": 75,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/75",
+		"description": "La bicicleta no cuenta con guardabarros, el sillín está un poco inclinado hacia arriba, los frenos no funcionan.",
+		"qualifier": 2.83,
+		"timeStamp": "2025-07-07T14:28:54.827Z",
+		"rating": {
+			"handlebar": 2,
+			"brakes": 1,
+			"seat": 2,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "jurinconli@unal.edu.co",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/75"
+	},
+	{
+		"bikeNo": 37,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/37",
+		"description": "Esta bien, pero las llantas son un poco lisas y puede ser riesgoso. Aún así recomendada.",
+		"qualifier": 4.33,
+		"timeStamp": "2025-07-07T15:30:35.018Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 3,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "haylopezgo@unal.edu.co",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/37"
+	},
+	{
+		"bikeNo": 207,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/207",
+		"description": "La cicla tiene muy buena velocidad, falta mejorar la calidad de los pedales",
+		"qualifier": 3.33,
+		"timeStamp": "2025-07-08T21:26:18.602Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 2,
+			"seat": 2,
+			"chain": 3,
+			"pedals": 2,
+			"fenders": 1
+		},
+		"email": "nmoralesl@unal.edu.co",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/207"
+	},
+	{
+		"bikeNo": 31,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/31",
+		"description": "La silla es muy incomoda",
+		"qualifier": 2.58,
+		"timeStamp": "2025-07-09T13:57:36.703Z",
+		"rating": {
+			"handlebar": 2,
+			"brakes": 2,
+			"seat": 1,
+			"chain": 2,
+			"pedals": 2,
+			"fenders": 1
+		},
+		"email": "nmoralesl@unal.edu.co",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/31"
+	},
+	{
+		"bikeNo": 206,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/v1751311411/biciapp_unal/bikes/no-bike-image_1200.jpg",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/v1751311411/biciapp_unal/bikes/no-bike-image_800.jpg",
+		"description": "La bicicleta era cómoda no tenía buenos frenos",
+		"qualifier": 3.58,
+		"timeStamp": "2025-07-09T19:51:59.557Z",
+		"rating": {
+			"handlebar": 2,
+			"brakes": 1,
+			"seat": 3,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 2
+		},
+		"email": "jurinconli@unal.edu.co"
+	},
+	{
+		"bikeNo": 62,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/62",
+		"description": "Mejorar frenos",
+		"qualifier": 2.58,
+		"timeStamp": "2025-07-09T20:20:56.250Z",
+		"rating": {
+			"handlebar": 2,
+			"brakes": 1,
+			"seat": 2,
+			"chain": 2,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "nmoralesl@unal.edu.co",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/62"
+	},
+	{
+		"bikeNo": 3,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/3",
+		"description": "La silla es muy incomoda",
+		"qualifier": 2.75,
+		"timeStamp": "2025-07-09T20:21:56.839Z",
+		"rating": {
+			"handlebar": 3,
+			"brakes": 2,
+			"seat": 1,
+			"chain": 2,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "nmoralesl@unal.edu.co",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/3"
+	},
+	{
+		"bikeNo": 18,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/18",
+		"description": "La silla es incomoda",
+		"qualifier": 2.58,
+		"timeStamp": "2025-07-10T20:38:45.987Z",
+		"rating": {
+			"handlebar": 2,
+			"brakes": 2,
+			"seat": 1,
+			"chain": 2,
+			"pedals": 2,
+			"fenders": 1
+		},
+		"email": "nmoralesl@unal.edu.co",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/18"
+	},
+	{
+		"bikeNo": 69,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/69",
+		"description": "Es regular y no tiene guardabarros",
+		"qualifier": 3.33,
+		"timeStamp": "2025-07-10T20:56:47.751Z",
+		"rating": {
+			"handlebar": 2,
+			"brakes": 2,
+			"seat": 2,
+			"chain": 3,
+			"pedals": 3,
+			"fenders": 1
+		},
+		"email": "nmoralesl@unal.edu.co",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/69"
+	},
+	{
+		"bikeNo": 8,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/8",
+		"description": "Montarla se siente como si se fuera a deshacer la cicla",
+		"qualifier": 2.5,
+		"timeStamp": "2025-07-10T21:52:33.636Z",
+		"rating": {
+			"handlebar": 1,
+			"brakes": 2,
+			"seat": 1,
+			"chain": 2,
+			"pedals": 2,
+			"fenders": 1
+		},
+		"email": "nmoralesl@unal.edu.co",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/8"
+	},
+	{
+		"bikeNo": 51,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/51",
+		"description": "En general es normal",
+		"qualifier": 2.75,
+		"timeStamp": "2025-07-11T22:14:59.502Z",
+		"rating": {
+			"handlebar": 2,
+			"brakes": 1,
+			"seat": 2,
+			"chain": 3,
+			"pedals": 2,
+			"fenders": 1
+		},
+		"email": "nmoralesl@unal.edu.co",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/51"
+	},
+	{
+		"bikeNo": 16,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/16",
+		"description": "La silla se doblo cuando me sente y se iba hundiendo poco a poco, la cicla pareciera que se fuera a desbaratar con cada pedaleada que se da",
+		"qualifier": 2.58,
+		"timeStamp": "2025-07-12T01:37:38.829Z",
+		"rating": {
+			"handlebar": 2,
+			"brakes": 2,
+			"seat": 1,
+			"chain": 2,
+			"pedals": 2,
+			"fenders": 1
+		},
+		"email": "nmoralesl@unal.edu.co",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/16"
+	},
+	{
+		"bikeNo": 52,
+		"image": "https://res.cloudinary.com/dfmkgykqh/image/upload/w_1200/q_auto/v1751311411/biciapp_unal/bikes/52",
+		"description": "Por lo general muy bien revisar cabrilla",
+		"qualifier": 3.42,
+		"timeStamp": "2025-07-12T01:39:27.127Z",
+		"rating": {
+			"handlebar": 2,
+			"brakes": 2,
+			"seat": 3,
+			"chain": 2,
+			"pedals": 2,
+			"fenders": 1
+		},
+		"email": "nmoralesl@unal.edu.co",
+		"thumbnail": "https://res.cloudinary.com/dfmkgykqh/image/upload/ar_1:1,c_thumb,g_center,w_600/v1751311411/biciapp_unal/bikes/52"
+	}
+]

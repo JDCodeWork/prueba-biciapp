@@ -12,9 +12,43 @@ export class BikesService {
   ) { }
 
   async getAllBikes() {
-    const allBikes = await this.bikeRepository.find()
+    const allBikes = await this.bikeRepository.find({
+      relations: {
+        comments: true
+      },
+      select: {
+        comments: {
+          rating: true,
+          value: true
+        }
+      }
+    })
 
-    return allBikes
+    const formattedBikes = allBikes.map(bike => {
+      const { comments, ...bikeData } = bike
+
+      const sumOfRatings = comments.reduce((acc, curr) => acc += curr.rating, 0)
+      let rating = sumOfRatings / comments.length // NaN -> Not a Number
+
+      if (isNaN(rating)) {
+        rating = 0
+      }
+
+      const formattedComments = comments.map(comment => {
+        return {
+          rating: comment.rating,
+          comment: comment.value
+        }
+      })
+
+      return {
+        ...bikeData,
+        rating,
+        comments: formattedComments
+      }
+    })
+
+    return formattedBikes
   }
 
   async createBike(no: number, status: string) {

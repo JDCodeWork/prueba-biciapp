@@ -1,4 +1,5 @@
-import { Column, Entity, PrimaryGeneratedColumn } from "typeorm"
+import { Comment } from "src/comments/entities/comment.entity"
+import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm"
 
 @Entity()
 export class Bike {
@@ -15,9 +16,9 @@ export class Bike {
   })
   status: string
 
-  @Column({
-    type: 'float',
-    default: 0,
-  })
-  rating: number
+  @OneToMany(
+    () => Comment,
+    (comment) => comment.bike
+  )
+  comments: Comment[]
 }
